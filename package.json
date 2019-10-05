@@ -1,0 +1,22 @@
+{
+  "name": "reactnativesnippetslk",
+  "displayName": "React Native Snippetslk",
+  "description": "Most Useful And Important React Native Snippets generator",
+  "version": "0.0.1",
+  "publisher": "SankA",
+  "icon": "icon.jpg",
+  "engines": {
+    "vscode": "^1.38.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}

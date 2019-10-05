@@ -1,0 +1,246 @@
+{
+  "React Native Import Components": {
+    "prefix": "imc",
+    "body": ["import React, {Component} from 'react';"],
+    "description": "import a basic component file "
+  },
+  "React Native import": {
+    "prefix": "im",
+    "body": ["import {  } from 'react-native';"],
+    "description": "import react file"
+  },
+  "React Native * import": {
+    "prefix": "*",
+    "body": ["import * as React from 'react';"],
+    "description": "import * react file"
+  },
+  "React Native React import": {
+    "prefix": "imr",
+    "body": ["import React from 'react';"],
+    "description": "import react file"
+  },
+  "React Native body ": {
+    "prefix": "impa",
+    "body": [
+      "import React from 'react';",
+      "import {  } from 'react-native';",
+      "",
+      "",
+      "export default class AddItem extends Component {",
+      " render(){",
+      "     return (",
+      "         <View>",
+
+      "         </View>",
+      "     );",
+      " }",
+      "}"
+    ],
+    "description": "import react body file"
+  },
+  "React Native props main": {
+    "prefix": "prop",
+    "body": [
+      "import React, { Component } from 'react';",
+
+      "export default class create extends Component {",
+      "constructor(props) {",
+      "super(props);",
+
+      "this.state = {",
+      " };",
+      " }",
+      "render() {",
+      "return (",
+      ");",
+      "}"
+    ],
+    "description": "import react props main"
+  },
+  "React Native stylesheet main": {
+    "prefix": "consty",
+    "body": ["const styles = StyleSheet.create({", "    });"],
+    "description": "import react stylesheet main"
+  },
+  "React Native Components view": {
+    "prefix": "vs",
+    "body": ["<View style={styles.main}>$1</View>"],
+    "description": "import react stylesheet main"
+  },
+  "React Native Components Text": {
+    "prefix": "vt",
+    "body": ["<Text style={styles.title}>$1</Text>"],
+    "description": "import react stylesheet text view"
+  },
+  "React Native Components text input": {
+    "prefix": "vi",
+    "body": ["<TextInput", "style={styles.itemInput}", " placeholder=", "  />"],
+    "description": "import react stylesheet text input view"
+  },
+  "React Native Components TouchbleHighlight": {
+    "prefix": "vh",
+    "body": ["<TouchableHighlight", "style={$1}", "   </TouchableHighlight>"],
+    "description": "import react stylesheet TouchableHighlight"
+  },
+  "React Native Components Safeareaview": {
+    "prefix": "sv",
+    "body": ["<SafeAreaView style={$1}>", "</SafeAreaView>"],
+    "description": "import react stylesheet safeareaview"
+  },
+  "React Native Components Scrollview": {
+    "prefix": "sc",
+    "body": ["<ScrollView style={styles.scrollView}>", "</ScrollView>"],
+    "description": "import react stylesheet scrollview"
+  },
+  "React Native Components ActivityIndicator": {
+    "prefix": "ai",
+    "body": ["<ActivityIndicator size= />"],
+    "description": "import react stylesheet ActivityIndicator"
+  },
+  "React Native Components Datepicker": {
+    "prefix": "dap",
+    "body": [
+      "<DatePickerIOS",
+      "date={this.state.chosenDate}",
+      "onDateChange={this.setDate}",
+      "/>"
+    ],
+    "description": "import react stylesheet Datepicker"
+  },
+  "React Native Components image": {
+    "prefix": "imgs",
+    "body": [
+      "<Image",
+      "style={styles.stretch}",
+      "source={require('..')}",
+      "/>"
+    ],
+    "description": "import react stylesheet image"
+  },
+  "React Native Components imagebackground": {
+    "prefix": "imb",
+    "body": [
+      "<ImageBackground source={...} style={{width: '100%', height: '100%'}}>",
+      "</ImageBackground>"
+    ],
+    "description": "import react stylesheet image Background"
+  },
+  "React Native Components KeyboardingAvoidView": {
+    "prefix": "kav",
+    "body": [
+      "<KeyboardAvoidingView style={styles.container}>",
+      "  </KeyboardAvoidingView>"
+    ],
+    "description": "import react stylesheet KeyboardingAvoidView"
+  },
+  "React Native Components ProgressBarAndroid": {
+    "prefix": "pba",
+    "body": ["<ProgressBarAndroid styleAttr=/>"],
+    "description": "import react stylesheet ProgressBarAndroid"
+  },
+  "React Native consolelog": {
+    "prefix": "clg",
+    "body": ["console.log(obj)"],
+    "description": "import react stylesheet consolelog"
+  },
+  "React Native consolelog warn": {
+    "prefix": "cw",
+    "body": ["console.warn"],
+    "description": "import react stylesheet consolelog warning"
+  },
+  "React Native render return": {
+    "prefix": "ren",
+    "body": ["render() { return( ) };"],
+    "description": "import react stylesheet render return"
+  },
+  "React Native setstate": {
+    "prefix": "set",
+    "body": [" this.setState({ })"],
+    "description": "import react this.setstate"
+  },
+  "React Native stylesheet justifyContent": {
+    "prefix": "jus",
+    "body": ["justifyContent: '',"],
+    "description": "import react stylesheet justifyContent"
+  },
+  "React Native stylesheet AlignItem": {
+    "prefix": "alit",
+    "body": ["alignItems: '${1}',"],
+    "description": "import react stylesheet alignItems"
+  },
+  "React Native stylesheet aspectRatio": {
+    "prefix": "asr",
+    "body": ["aspectRatio: '',"],
+    "description": "import react stylesheet aspectRatio"
+  },
+  "React Native stylesheet borderWidth": {
+    "prefix": "borw",
+    "body": ["borderWidth: ,"],
+    "description": "import react stylesheet borderWidth"
+  },
+  "React Native stylesheet flexDirection": {
+    "prefix": "flex",
+    "body": ["flexDirection: '',"],
+    "description": "import react stylesheet flexDirection"
+  },
+  "React Native stylesheet height": {
+    "prefix": "h",
+    "body": ["height: ,"],
+    "description": "import react stylesheet height"
+  },
+  "React Native stylesheet width": {
+    "prefix": "w",
+    "body": ["width: ,"],
+    "description": "import react stylesheet width"
+  },
+  "React Native stylesheet left": {
+    "prefix": "l",
+    "body": ["left: '',"],
+    "description": "import react stylesheet left"
+  },
+  "React Native stylesheet right": {
+    "prefix": "ri",
+    "body": ["right: ,"],
+    "description": "import react stylesheet right"
+  },
+  "React Native stylesheet marginHorizontal": {
+    "prefix": "mrh",
+    "body": ["marginHorizontal: '',"],
+    "description": "import react stylesheet marginHorizontal"
+  },
+  "React Native stylesheet paddingHorizontal": {
+    "prefix": "pah",
+    "body": ["paddingHorizontal: ,"],
+    "description": "import react stylesheet paddingHorizontal"
+  },
+  "React Native stylesheet maxWidth": {
+    "prefix": "max",
+    "body": ["maxWidth: ,"],
+    "description": "import react stylesheet maxWidth"
+  },
+  "React Native stylesheet minWidth": {
+    "prefix": "min",
+    "body": ["minWidth: ,"],
+    "description": "import react stylesheet minWidth"
+  },
+  "React Native stylesheet opacity": {
+    "prefix": "op",
+    "body": ["opacity: ,"],
+    "description": "import react stylesheet opacity"
+  },
+  "React Native stylesheet backgroundColor": {
+    "prefix": "bgc",
+    "body": ["backgroundColor: ,"],
+    "description": "import react stylesheet backgroundColor"
+  },
+  "React Native stylesheet direction": {
+    "prefix": "dir",
+    "body": ["direction: ,"],
+    "description": "import react stylesheet direction"
+  },
+  "React Native stylesheet position": {
+    "prefix": "pos",
+    "body": [" position: ,"],
+    "description": "import react stylesheet position"
+  }
+}
